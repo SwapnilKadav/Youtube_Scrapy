@@ -8,5 +8,11 @@ import scrapy
 
 class YoutubeScrapyItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    URL = scrapy.Field()
+    Title = scrapy.Field()
+    Description = scrapy.Field()
+    Comments = scrapy.Field()
+    Reply = scrapy.Field()
+    Text = scrapy.Field() 
+    Start = scrapy.Field()
+    Duration = scrapy.Field()
