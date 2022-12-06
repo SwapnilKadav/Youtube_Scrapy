@@ -13,6 +13,4 @@ class YoutubeScrapyItem(scrapy.Item):
     Description = scrapy.Field()
     Comments = scrapy.Field()
     Reply = scrapy.Field()
-    Text = scrapy.Field() 
-    Start = scrapy.Field()
-    Duration = scrapy.Field()
+    Transcript = scrapy.Field()
